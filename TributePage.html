@@ -1,0 +1,178 @@
+<! DOCTYPE html> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&display=swap" rel="stylesheet">
+
+<style>
+body{
+	padding: 3px;
+	background-color: grey;
+	font-family: 'Dancing Script', cursive;
+	color: #aa8ce6;
+
+}
+h1, h2{
+	text-align: center;
+	color: #aa8ce6;
+
+}
+#titlePop{
+	color: #bbfce8;
+
+}
+#titlePop:hover{
+	color: green;
+	font-size: 35px;
+}
+h3{
+	text-align: center;
+}
+.top{
+	padding-top: 55px;
+	border-radius: 50%;
+	padding: 10px ;
+	background-color: #26144a;
+	background-image: url("paper.gif");
+
+}
+#img-div{
+	padding: 5px 10px 30px 0px;
+	background-color: #26144a;
+}
+#title{
+	background-color: black;
+}
+
+img{ 
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+img:hover{
+	animation-name: disap;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes disap {
+	100%{
+		width: 36%;
+	}
+	50%{
+		width: 33%;
+	}
+	0%{
+		width: 30%;
+	}
+}
+.bio{
+	padding: 5px 10px 10px 20px;
+	height: auto;
+	background-color: #FFFFFF;
+	background-image:  linear-gradient(#52126b, #6b1262);
+	color: #FFFFFF;
+	font-size: 100%;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Handlee', cursive;
+
+}
+#list{
+	color: yellow;
+}
+#list:hover{
+color: green;
+font-size: 20px;
+
+}
+.date{
+	background-color: #52126b;
+	padding: 2px;
+}
+#date{
+	position: justify;
+	color: white;
+	padding: 0px;
+	text-align: center;
+}
+a{
+	color: white;
+}
+@media (max-height: 500px) {
+	
+	p{
+		font-size: 25px;
+	}
+	li{
+		font-size: 25px;
+	}
+	#list:hover{
+		font-size: 25px;
+	}
+	img{
+		width: 50%;
+	}
+}
+
+
+	</style>
+
+
+
+
+
+<html>
+<div id="title">
+<title> A tribute Page </title>
+
+<div class="top">
+<head>
+<h1 id="titlePop"> Cate Blanchett </h1>
+<h2> A Tribute Page</h2>
+</div>
+<br>
+</head>
+
+<body>
+	<div id="img-div">
+	
+<img id="img-caption" alt="cate blanchett" src="https://m.media-amazon.com/images/M/MV5BMTc1MDI0MDg1NV5BMl5BanBnXkFtZTgwMDM3OTAzMTE@._V1_SY1000_CR0,0,692,1000_AL_.jpg" alt="cate blanchett" >
+<h3>Biography</h3>
+</div>
+
+<article>
+	<div id="tribute-info">
+<div class="bio">
+<p><u>Cate Blanchett</u> is an <s>American</s> Australian actress. One of Australia's most accomplished actors, she is known for her roles in both blockbusters and independent films and has received numerous accolades, including two Academy Awards, three Golden Globe Awards, and three British Academy Film Awards. <em><a href="https://www.imdb.com/name/nm0000949/" target="_blank"> You can find additional information here<em></p>
+</div>
+</div>
+
+<div class="end">
+<h2 id="titlePop">Movies Best known for</h2>
+<hr>
+<ul>
+	<a href="https://www.imdb.com/title/tt0120737/" targ`et="_blank"><li id="list">Lord of the Rings</li></a>
+	<a href="https://www.imdb.com/title/tt0127536/?ref_=fn_al_tt_1" target="blanck"><li id="list">Elizabeth</li></a>
+	<a href="https://www.imdb.com/title/tt1661199/?ref_=nv_sr_srsg_0" target="blanck"><li id="list">Cinderella</li></a>
+	<a href="https://www.imdb.com/title/tt2365580/?ref_=fn_al_tt_1" target="blanck"> <li id="list">Where'd you go, Bernadette</li></a>
+	<a href="https://www.imdb.com/title/tt1661199/?ref_=nv_sr_srsg_0" target="blanck"><li id="list">& many more</li></a>
+</ul>
+</div>
+
+	<div class="bio">
+		<p>In 2015, she adopted her daughter <em>Edith</em> in her father's homeland of the United States. That same year, she and her husband sold their <b>multi-million dollar home </b>in Australia at a profit and moved to America. Reasons varied from her wanting to work more in America to wanting to familiarize herself with her late father's American heritage.</p>
+
+		<p>She played the title role of Carol (2015), a 1950s American housewife in a lesbian affair with a younger woman, for which she received an Oscar nomination as Best Actress. While most actresses might slow down in their forties, Blanchett did the opposite by stretching her boundaries even further, such as when she played 13 different characters in Manifesto (2015) and then making her Broadway debut in 2017 in <em>"The Present"</em>, which is her husband's adaptation of Chekhov's play "Platonov" for which she earned a Tony nomination as Best Actress in a Play. Also in 2017, she was selected for the highest honor in her birth country: the Companion of the Order of Australia (AC).</p>
+	</div>
+	<br>
+
+	<footer>
+		<div class="date">
+		<p id="date">June 16, 2020</p>
+	</div>
+	</footer>
+		</article>
+	</div>
+</body>
+
+</html>
